@@ -1,0 +1,246 @@
+Day-5(Miscellaneous Problem Solving):
+Introduction to Dynamic Programming
+Fibonacci Series using Dynamic Programming
+Solving Problems using Regex.
+Java-8-17 Overview
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q1.Egg Dropping Puzzle
+Imagine that you have N eggs and you have to determine from which K-floor of a building, you can drop an egg such that it doesn't break. You have to determine the minimum number of attempts. Which you need in order to find the critical floor in the worst case while using the best strategy. There are few rules given below:
+
+An egg that survives a fall can be used again.
+A broken egg must be discarded.
+The effect of a fall is the same for all the eggs.
+If the egg doesn't break on a certain floor, it will not break on any of the floors below the present floor.
+If the eggs break at a certain floor, they will break at any of the floors above the present floor.
+
+
+Format:
+
+Input:
+
+The first line of input is T denoting the number of test cases. Then each of the T lines contains two positive integers N and K. Where 'N' is the number of eggs and 'K' is the number of floors in a building.
+
+Output:
+
+For each test case, print a single line containing one integer. Which gives the minimum number of attempts you need in order to find a critical floor.
+
+
+
+Constraints:
+
+1 <= T <= 30
+
+1 <= N <= 10
+
+1 <= K <= 50
+
+
+
+﻿Example:
+
+Input:
+
+2
+
+2 10
+
+3 5
+
+Output:
+
+4
+
+3
+
+
+Case 1
+Case 2
+Input (stdin)
+2
+2 10
+3 5
+
+Output (stdout)
+4
+3
+
+
+Input (stdin)
+1
+9 49
+
+Output (stdout)
+6
+
+Solution:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q2.Coin Turn Game
+Consider a row of n coins. We play a game against an opponent by alternative turns. In each turn, a player selects either the first or last coin from the row. Now remove it from the row permanently and take the value of a coin. Find the maximum possible amount of money.
+
+
+
+Example:
+
+Input:
+
+4
+
+5 3 7 10
+
+Output:
+
+15
+
+
+Case 1
+Case 2
+Case 3
+Case 6
+Case 7
+Case 8
+Case 9
+Case 10
+Input (stdin)
+4
+5 3 7 10
+
+Output (stdout)
+15
+
+
+Input (stdin)
+7
+8 15 3 7 10 22 5
+
+Output (stdout)
+26
+
+
+
+Input (stdin)
+8
+10 3 8 2 6 7 15 1
+
+Output (stdout)
+39
+
+
+Input (stdin)
+5
+1 2 3 4 5
+
+Output (stdout)
+9
+
+
+Input (stdin)
+7
+11 22 33 44 55 66 88
+
+Output (stdout)
+187
+
+Solution:
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q3.You are given a string representing a phone number in the format (XXX) XXX-XXXX. Your task is to validate whether the given string is a 
+valid phone number or not.
+Input:
+Enter a phone number:
+(123) 456-7890
+
+Output:
+true
+
+Solution:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q4.You are given a string containing a list of email addresses separated by commas. Your task is to extract all the email addresses from the string.
+
+input:
+Contact us at test@guvi.in or lavish@guvi.in
+
+Output:
+ [test@guvi.in, lavish@guvi.in]
+
+Solution:
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q5.You are given a string containing a word. Your task is to check if the word starts with the letter 'A' or 'a'.
+
+Input:
+apple
+
+Output:
+True
+
+Solution:
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q6.You are given a string representing a sentence. Your task is to check if the sentence ends with a question mark.
+Input:
+How are you?
+
+
+Output:
+true
+
+SOlution:
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q7.Write a program to find the nth Fibonacci number using dynamic programming.
+Input:6
+Output:8
+
+Solution:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q8.Write a program to check if a given string contains only digits
+Sample Input:
+12345
+
+Output:
+true
+
+
+Solution:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q9.Write a program to extract all digits from a given string.
+Sample Input:
+abc123xyz
+
+Sample Output:
+123
+
+Solution:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Q10.Write a program to replace all vowels in a given string with the character '*'.
+
+Sample input:
+guvi geek
+
+Sample Output:
+g*v* g**k
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------

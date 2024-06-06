@@ -1,0 +1,220 @@
+Day-6(Java 8+ features ):
+Java-8-17 Overview
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q1.Sum of a List of Integers
+Emma is a software developer working on a financial application. She needs to calculate the total sum of several transactions entered by
+ the user. Help Emma write a program that reads a list of integers representing transaction amounts and calculates their total sum using 
+Java Streams.
+
+Test Case 1:
+Input: 100 200 300 400 500
+Output: Total Sum: 1500
+
+Test Case 2:
+Input: 10 20 30
+Output: Total Sum: 60
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q2.Filter Even Numbers
+
+Alex is building a utility tool that helps in data analysis. One of the requirements is to filter out even numbers from a list of integers. 
+Help Alex write a program that reads a list of integers and filters out the even numbers using Java Streams.
+
+
+
+Test Case 1:
+Input: 1 2 3 4 5 6
+Output: Even Numbers: [2, 4, 6]
+
+
+Test Case 2:
+Input: 7 8 9 10 11
+Output: Even Numbers: [8, 10]
+
+Solution:
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q3.Olivia is building a text categorization tool that groups words by their length. Help Olivia write a program that reads a list of strings
+ and groups them by their length using Java Streams.
+
+
+
+Test Case 1:
+Input: a bb ccc dd eee
+Output: Grouped by Length: {1=[a], 2=[bb, dd], 3=[ccc, eee]}
+
+Test Case 2:
+Input: apple banana cherry date
+Output: Grouped by Length: {5=[apple], 6=[banana, cherry], 4=[date]}
+
+solution:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q4.Lucas is developing a data integration tool that needs to flatten nested lists of strings into a single list. Help Lucas write a program
+ that reads multiple lists of strings and flattens them into one list using flatMap.
+
+
+Test Case 1:
+Input: a b c|d e f|g h i
+Output: Flattened List: [a, b, c, d, e, f, g, h, i]
+
+Test Case 2:
+Input: 1 2|3 4 5|6 7 8 9
+Output: Flattened List: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q5.Bob is creating a tool to check if two given strings are anagrams. Help Bob write a program that reads two strings and checks if 
+they are anagrams using Java Streams.
+
+
+
+
+Test Case 1:
+Input: 
+String 1: listen
+String 2: silent
+Output: Are Anagrams: true
+
+
+
+
+Test Case 2:
+Input: 
+String 1: hello
+String 2: world
+Output: Are Anagrams: false
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q6.Employee Salary Calculation
+Eva works in HR and needs a tool to calculate the total salary of employees with a salary above a certain threshold. Help Eva write a 
+program that reads employee salaries and a threshold, then calculates the total salary of those above the threshold using Java Streams.
+
+
+
+Test Case 1:
+Input: 
+Salaries: 5000 7000 8000 2000
+Threshold: 6000
+Output: Total Salary above threshold: 15000
+
+
+Test Case 2:
+Input: 
+Salaries: 3000 4000 5000
+Threshold: 4500
+Output: Total Salary above threshold: 5000
+
+
+
+Code solution:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q7.Lavish is developing a language learning app and needs to count the number of vowels in a given string. 
+Help Lavish to write a program that reads a string and counts the vowels using Java Streams.
+
+
+Test Case 1:
+Input: hello world
+Output: Number of Vowels: 3
+
+
+Test Case 2:
+Input: programming
+Output: Number of Vowels: 3
+
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q8.Find Duplicates in List
+Hannah is working on a data processing tool and needs to find duplicate entries in a list of integers. Help Hannah write a program that 
+reads a list of integers and identifies the duplicates using Java Streams.
+
+
+Test Case 1:
+Input: 1 2 2 3 4 4 5
+Output: Duplicates: [2, 4]
+
+Test Case 2:
+Input: 10 20 30 10 40
+Output: Duplicates: [10]
+
+Solution:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q9.Find Common Elements in Two Lists
+Lavish is developing a comparison tool that needs to find common elements between two lists. Help Lavish write a program that reads 
+two lists of integers and finds the common elements using Java Streams.
+
+
+Test Case 1:
+Input: 
+List 1: 1 2 3 4 5
+List 2: 4 5 6 7 8
+Output: Common Elements: [4, 5]
+
+Test Case 2:
+Input: 
+List 1: 10 20 30
+List 2: 30 40 50
+Output: Common Elements: [30]
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q10.Prime Numbers in a Range
+Olivia is studying prime numbers and wants to find all prime numbers within a given range. Help Olivia write a program using Java Streams
+to generate all prime numbers within the range.
+
+
+
+Test Case 1:
+Input:
+Start: 5
+End: 20
+Output:
+Prime numbers between 5 and 20:
+5
+7
+11
+13
+17
+19
+
+
+
+Test Case 2:
+Input:
+Start: 10
+End: 50
+Output:
+Prime numbers between 10 and 50:
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+
+Solution:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
