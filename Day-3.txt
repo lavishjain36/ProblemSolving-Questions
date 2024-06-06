@@ -446,43 +446,6 @@ Repeating elements:
 7
 
 
-import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int N = scanner.nextInt();
-        int[] arr = new int[N];
-        for (int i = 0; i < N; i++) {
-            arr[i] = scanner.nextInt();
-        }
-
-        Arrays.sort(arr);
-
-        // Finding and printing all repeating elements
-        boolean foundRepeatingElement = false;
-        for (int i = 1; i < N; i++) {
-            if (arr[i] == arr[i - 1]) {
-                if (!foundRepeatingElement) {
-                    System.out.println("Repeating elements:");
-                    foundRepeatingElement = true;
-                }
-                System.out.println(arr[i]);
-                // Skip all consecutive occurrences of the same element
-                while (i < N - 1 && arr[i] == arr[i + 1]) {
-                    i++;
-                }
-            }
-        }
-
-        if (!foundRepeatingElement) {
-            System.out.println("No repeating elements found.");
-        }
-
-        scanner.close();
-    }
-}
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
